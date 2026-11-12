@@ -287,8 +287,9 @@ a.cap{color:inherit}.cap .go{color:var(--lilac);font-weight:600;font-size:15px;d
 .globe .arcs path{stroke-dasharray:3 6;animation:arcflow 5s linear infinite;opacity:.8}.globe .arcs path:nth-child(2n){animation-duration:7s;animation-direction:reverse}
 .globe .nodes circle{animation:nodep 3.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.globe .nodes circle:nth-child(3n){animation-delay:.8s}.globe .nodes circle:nth-child(3n+1){animation-delay:1.6s}.globe .nodes circle:nth-child(5n){animation-delay:2.3s}
 @keyframes arcflow{to{stroke-dashoffset:-90}}@keyframes nodep{0%,100%{opacity:.55;transform:scale(1)}50%{opacity:1;transform:scale(1.5)}}
-.cotile.gov{position:relative;gap:10px;border-color:rgba(255,149,0,.6)}.cotile.gov .gico.tile{width:44px;height:44px;margin-bottom:2px}
-.cotile.gov a.stretch{position:absolute;inset:0;border-radius:inherit}.cotile.gov:hover{border-color:var(--lilac)}
+.alsowith{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 30px;margin-top:34px;padding-top:22px;border-top:1px solid rgba(255,255,255,.16)}
+.alsowith .aw-l{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--sage)}
+.alsowith .aw-i b{font-family:'Space Grotesk';font-weight:500;font-size:18px;color:#EDEAE4}.alsowith .aw-i small{margin-left:10px;font-size:14px;color:var(--mut)}
 .govband{display:grid;grid-template-columns:auto minmax(0,1.6fr) auto auto;align-items:center;gap:clamp(18px,3vw,44px);padding:clamp(24px,3.4vw,44px);margin-top:18px;border-color:rgba(255,149,0,.55);position:relative;overflow:hidden;transition:border-color .3s,transform .3s}
 .govband::before{content:"";position:absolute;left:-10%;top:-40%;width:50%;height:180%;background:radial-gradient(closest-side,rgba(255,149,0,.16),transparent 70%);pointer-events:none}
 .govband:hover{border-color:var(--lilac);transform:translateY(-3px)}
